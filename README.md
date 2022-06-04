@@ -12,8 +12,8 @@ This is a web application for tour reservation, it was originally published in t
 
 ## ⚙️ Prerequisites
 
-* Yo need to use Intellij IDEA because it'll download all the dependencies utilized in the backend.
-* You'll need to have node and npm installed.
+* Yo need to use [Intellij IDEA](https://www.jetbrains.com/es-es/idea/) because it'll download all the dependencies utilized in the backend.
+* You'll need to have [node js](https://nodejs.org/es/download/) installed
 
 ## ✍️ Developed by
 
