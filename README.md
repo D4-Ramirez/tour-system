@@ -1,4 +1,4 @@
-# 🗺️ Tour system
+# 🗺️ Tour system web application
 
 This is a web application for tour reservation, it was originally published in this [repository](https://github.com/Dtrasla/DesWeb2022), and it's a project developed for our web development class. Here we used a DDD architecture, instead of a the conventional MVC architecture. For controlling many to many relationships into the database, we used RabbitMQ.
 
