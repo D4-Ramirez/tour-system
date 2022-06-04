@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.webdev.productsystem.Tours.Tour.Domain.Tour" table="tours">
+        <composite-id name="id" class="com.webdev.productsystem.Tours.Tour.Domain.ValueObjects.TourId" access="field">
+            <key-property name="value" column="id" access="field" length="36"/>
+        </composite-id>
+
+        <component name="name" class="com.webdev.productsystem.Tours.Tour.Domain.ValueObjects.TourName" access="field">
+            <property name="value" column="name" access="field" type="string"/>
+        </component>
+
+        <component name="date" class="com.webdev.productsystem.Tours.Tour.Domain.ValueObjects.TourDate" access="field">
+            <property name="value" column="date" access="field" type="string"/>
+        </component>
+
+        <property name="touristicLocations" column="touristic_locations" access="field">
+            <type name="com.webdev.productsystem.Tours.Tour.Infrastructure.Hibernate.TourCustomTypes" />
+        </property>
+    </class>
+</hibernate-mapping>
