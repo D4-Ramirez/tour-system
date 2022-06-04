@@ -17,9 +17,9 @@ This is a web application for tour reservation, it was originally published in t
 
 ## ✍️ Developed by
 
-* [Luis Manuel Peñaranda](https://github.com/LuisPenaranda)
-* [Daniel Traslaviña](https://github.com/Dtrasla)
-* [Pablo Santander](https://github.com/pablo-savp)
-* [Steban Vanegas](https://github.com/StebanVanegas)
-* [Santiago Diaz](https://github.com/S-Diaz05)
-* [David Ramírez](https://github.com/D4-Ramirez)
+* [Luis Manuel Peñaranda Ramírez](https://github.com/LuisPenaranda)
+* [Juan Daniel Traslaviña Guevara](https://github.com/Dtrasla)
+* [Pablo Santander Álvarez](https://github.com/pablo-savp)
+* [Steban Felipe Vanegas Camacho](https://github.com/StebanVanegas)
+* [Santiago Andrés Diaz Diaz](https://github.com/S-Diaz05)
+* [David Andrés Ramírez Monroy](https://github.com/D4-Ramirez)
