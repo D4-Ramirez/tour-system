@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.webdev.productsystem.Tours.Booking.Domain.Booking" table="Booking">
+    <class name="com.webdev.productsystem.Tours.Booking.Domain.Booking" table="bookings">
         <composite-id name="bookingId" class="com.webdev.productsystem.Tours.Booking.Domain.ValueObjects.BookingId" access="field">
             <key-property name="value" column="BookingId" access="field" length="36"/>
         </composite-id>
