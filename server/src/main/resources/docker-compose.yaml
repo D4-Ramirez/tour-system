@@ -1,0 +1,23 @@
+services:
+  database:
+    image: mariadb/server
+    container_name: tour_system_db
+    restart: always
+    ports:
+      - "${DB_PORT}:3306"
+    environment:
+      - MARIADB_ROOT_PASSWORD=${DB_PASSWORD}
+      - MARIADB_PASSWORD=${DB_PASSWORD}
+      - MARIADB_USER=${DB_USERNAME}
+      - MARIADB_DATABASE=${DB_DATABASE}
+    volumes:
+      - ./volumes/mariadb:/var/lib/mysql
+  queue_management:
+    image: rabbitmq:3.8-management-alpine
+    container_name: tour_system_mq
+    restart: always
+    ports:
+      - "${RABBITMQ_PORT}:5672"
+      - "${RABBITMQ_GUI_PORT}:15672"
+    volumes:
+      - ./volumes/rabbitmq:/var/lib/rabbitmq/mnesia
